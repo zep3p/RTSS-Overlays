@@ -1,0 +1,329 @@
+[Master]
+Implementation=2
+FontFace=Fira Code Medium
+FontHeight=-9
+FontWeight=500
+ZoomRatio=2
+[Settings]
+Name=
+EnvVars=
+RefreshPeriod=1000
+EmbeddedImage=overlay_bg.png
+PingAddr=
+[General]
+Sources=25
+Tables=0
+Layers=7
+[Source0]
+Name=Fan speed
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000010
+Gpu=00000000
+SrcName=
+[Source1]
+Name=Fan speed 2
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000012
+Gpu=00000000
+SrcName=
+[Source2]
+Name=GPU usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000030
+Gpu=00000000
+SrcName=
+[Source3]
+Name=Core clock
+Units=MHz
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000020
+Gpu=00000000
+SrcName=
+[Source4]
+Name=GPU temperature
+Units=°C
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000000
+Gpu=00000000
+SrcName=
+[Source5]
+Name=Power
+Units=W
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000061
+Gpu=00000000
+SrcName=
+[Source6]
+Name=Memory clock
+Units=MHz
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000022
+Gpu=00000000
+SrcName=
+[Source7]
+Name=Memory usage
+Units=GB
+Format=%0.2f
+Formula=x/1024
+Provider=MSI Afterburner
+SrcId=00000031
+Gpu=00000000
+SrcName=
+[Source8]
+Name=CPU usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000090
+Gpu=FFFFFFFF
+SrcName=
+[Source9]
+Name=CPU clock
+Units=MHz
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=000000A0
+Gpu=FFFFFFFF
+SrcName=
+[Source10]
+Name=CPU temperature
+Units=°C
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000080
+Gpu=FFFFFFFF
+SrcName=
+[Source11]
+Name=CPU1 usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000090
+Gpu=00000000
+SrcName=
+[Source12]
+Name=CPU2 usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000090
+Gpu=00000001
+SrcName=
+[Source13]
+Name=CPU3 usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000090
+Gpu=00000002
+SrcName=
+[Source14]
+Name=CPU4 usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000090
+Gpu=00000003
+SrcName=
+[Source15]
+Name=CPU5 usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000090
+Gpu=00000004
+SrcName=
+[Source16]
+Name=CPU6 usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000090
+Gpu=00000005
+SrcName=
+[Source17]
+Name=CPU7 usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000090
+Gpu=00000006
+SrcName=
+[Source18]
+Name=CPU8 usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000090
+Gpu=00000007
+SrcName=
+[Source19]
+Name=CPU9 usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000090
+Gpu=00000008
+SrcName=
+[Source20]
+Name=CPU10 usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000090
+Gpu=00000009
+SrcName=
+[Source21]
+Name=CPU11 usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000090
+Gpu=0000000A
+SrcName=
+[Source22]
+Name=CPU12 usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000090
+Gpu=0000000B
+SrcName=
+[Source23]
+Name=CPU power
+Units=W
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000100
+Gpu=FFFFFFFF
+SrcName=
+[Source24]
+Name=RAM usage
+Units=GB
+Format=%0.2f
+Formula=x/1024
+Provider=MSI Afterburner
+SrcId=00000091
+Gpu=00000000
+SrcName=
+[Layer0]
+Name=
+Text=<I=0,0,0,0,235,42>
+PositionX=769
+PositionY=99
+ExtentX=-21
+ExtentY=-2
+ExtentOrigin=4
+MarginLeft=4
+MarginTop=11
+MarginRight=-1
+MarginBottom=-3
+[Layer1]
+Name=
+Text=CPU:
+PositionX=781
+PositionY=109
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+FixedAlignment=1
+Size=60
+TextColor=FFFFFF
+MarginLeft=3
+MarginTop=-1
+[Layer2]
+Name=
+Text=%CPU temperature% °C
+PositionX=798
+PositionY=108
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Alignment=4
+FixedAlignment=1
+Size=60
+TextColor=84D0FF,0,30,FFFFFF,30,45,F4E515,45,60,FF8000,60,85,FF1900,85,120(CPU temperature,1)
+MarginTop=-2
+[Layer3]
+Name=
+Text=%GPU temperature% °C
+PositionX=791
+PositionY=116
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Alignment=4
+FixedAlignment=1
+Size=60
+TextColor=84D0FF,0,30,FFFFFF,30,45,F4E515,45,60,FF8000,60,85,FF1900,85,120(GPU temperature,1)
+MarginTop=-2
+[Layer4]
+Name=
+Text=GPU:
+PositionX=775
+PositionY=116
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+FixedAlignment=1
+Size=60
+TextColor=FFFFFF
+MarginLeft=2
+[Layer5]
+Name=
+Text=VRAM:%Memory usage%/%VRAM%
+PositionX=829
+PositionY=109
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+FixedAlignment=1
+Size=60
+TextColor=FFFFFF
+MarginLeft=3
+MarginTop=-1
+[Layer6]
+Name=
+Text=RAM:%RAM usage%/%RAM%
+PositionX=820
+PositionY=115
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+FixedAlignment=1
+Size=60
+TextColor=FFFFFF
+MarginLeft=2
